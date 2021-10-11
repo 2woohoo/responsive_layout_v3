@@ -12,6 +12,7 @@ h1, h2, h3, button{
 
 h1 {
   font-size: 1.5rem;
+  color: #444554;
 }
 
 h2, button{
