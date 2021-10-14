@@ -63,6 +63,7 @@ a:link, a:visited {
 
 nav {
   width: 100vw;
+  margin: 1rem auto;
 }
 
 .navbar {
@@ -109,6 +110,7 @@ nav {
 .tablet {
   display: none;
 }
+
 
 /* Media Queries */
 @media screen and (min-width: 768px) {
@@ -168,6 +170,10 @@ nav {
 
   .mobile {
     display: none;
+  }
+
+  .tablet h2:last-child {
+    padding-right: 0;
   }
 }
 
